@@ -2,6 +2,7 @@
 title: HttpWebRequest的用法详解
 date: 2019-12-12 14:06:51
 tags: CSHARP
+categories: Memo
 ---
 
 1、HttpWebRequest和HttpWebResponse类是用于发送和接收HTTP数据的最好选择。

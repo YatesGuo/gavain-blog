@@ -2,6 +2,7 @@
 title: JSON 序列化和反序列化—JavaScriptSerializer实现
 date: 2018-8-25
 tag: CSHARP
+categories: Memo
 ---
 JavaScriptSerializer 类由异步通信层内部使用，用于序列化和反序列化在浏览器和 Web 服务器之间传递的数据。您无法访问序列化程序的此实例。但是，此类公开了公共 API。因此，当您希望在托管代码中使用 JavaScript 对象符号 (JSON) 时可以使用此类。
 若要序列化对象，请使用 Serialize 方法。若要反序列化 JSON 字符串，请使用 Deserialize 或 DeserializeObject 方法。若要序列化和反序列化 JavaScriptSerializer 本身不支持的类型，请使用 JavaScriptConverter 类来实现自定义转换器。然后，使用 RegisterConverters 方法注册转换器。
